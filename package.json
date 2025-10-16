@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-vendas-ai",
+  "version": "1.0.0",
+  "description": "Sistema de vendas WhatsApp com IA e painel admin",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
